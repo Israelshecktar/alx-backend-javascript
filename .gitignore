@@ -2,3 +2,4 @@
 .eslintrc.js
 *.config.js
 /node_modules
+*main.js
