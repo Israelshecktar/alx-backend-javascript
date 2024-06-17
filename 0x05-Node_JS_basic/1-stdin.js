@@ -7,3 +7,7 @@ process.stdin.on('data', (data) => {
   process.stdout.write(`Your name is: ${name}\n`);
   process.exit();
 });
+
+process.on('exit', () => {
+  console.log('This important software is now closing');
+});
