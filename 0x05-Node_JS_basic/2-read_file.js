@@ -23,7 +23,9 @@ function countStudents(path) {
 
     // Group by field
     const fields = {};
-    students.forEach(([firstname, field]) => {
+    students.forEach(([firstname,
+      /* eslint-disable-line no-unused-vars */ _lastname,
+      /* eslint-disable-line no-unused-vars */ _age, field]) => {
       if (!fields[field]) {
         fields[field] = [];
       }
