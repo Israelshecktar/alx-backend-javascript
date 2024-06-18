@@ -23,7 +23,7 @@ function countStudents(path) {
 
     // Group by field
     const fields = {};
-    students.forEach(([firstname, lastname, age, field]) => {
+    students.forEach(([firstname, field]) => {
       if (!fields[field]) {
         fields[field] = [];
       }
