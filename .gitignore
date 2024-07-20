@@ -1,4 +1,3 @@
-*.json
 .eslintrc.js
 *.config.js
 /node_modules
